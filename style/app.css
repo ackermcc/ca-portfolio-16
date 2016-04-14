@@ -1,0 +1,238 @@
+/*////////////////////////*/
+/* GENERIC                */
+/*////////////////////////*/
+
+/*
+When setting the primary font stack, apply it to the Pure grid units along
+with `html`, `button`, `input`, `select`, and `textarea`. Pure Grids use
+specific font stacks to ensure the greatest OS/browser compatibility.
+*/
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+    /* Set your content font stack here: */
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.3;
+}
+
+.pure-g > div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a {
+  color: #3498DB;
+  text-decoration: none;
+}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+}
+
+/*////////////////////////*/
+/* OBJECTS                */
+/*////////////////////////*/
+.o-inline-list > li {
+  display: inline-block;
+}
+
+.o-stacked-list > li {
+  list-style: none;
+}
+/*////////////////////////*/
+/* COMPONENTS             */
+/*////////////////////////*/
+.c-title {
+  font-weight: 700;
+}
+
+  .c-title--large {
+    font-size: 32px;
+  }
+
+.c-paragraph {
+
+}
+
+  .c-paragraph--large {
+    font-size: 24px;
+    line-height: 1.5;
+  }
+
+.c-project-list-item {
+  color: #fff;
+  min-height: 320px;
+}
+
+  .c-project-list-item__image {
+
+  }
+
+  .c-project-list-item__title {
+    font-size: 28px;
+    font-weight: 700;
+  }
+
+  .c-project-list-item__seperator {
+    width: 80px;
+    height: 10px;
+    background: rgba(0, 0, 0, 0.25);
+  }
+
+  .c-project-list-item__description {
+    font-size: 24px;
+  }
+
+  .c-project-list-item__label {
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .c-project-list-item--apm {
+    background: #3B3B3F;
+  }
+/*////////////////////////*/
+/* TRUMPS                 */
+/*////////////////////////*/
+
+/*BOXES*/
+
+.u-m-0 {
+  margin: 0 !important;
+}
+
+.u-p-0 {
+  padding: 0 !important;
+}
+
+/*PADDING*/
+
+.u-p-sm {
+  padding: 1em;
+}
+
+.u-p-sm--lr {
+  padding: 0 1em;
+}
+
+.u-p-sm--tb {
+  padding: 1em 0;
+}
+
+.u-p-md {
+  padding: 1.5em;
+}
+
+.u-p-md--lr {
+  padding: 0 1.5em;
+}
+
+.u-p-md--tb {
+  padding: 1.5em 0;
+}
+
+.u-p-lg {
+  padding: 2em;
+}
+
+.u-p-lg--lr {
+  padding: 0 2em;
+}
+
+.u-p-lg--tb {
+  padding: 2em 0;
+}
+
+/*MARGIN*/
+.u-m-sm {
+  margin: 1em;
+}
+
+  .u-m-sm--lr {
+    margin: 0 1em;
+  }
+
+  .u-m-sm--tb {
+    margin: 1em 0;
+  }
+
+  .u-m-sm--t {
+    margin-top: 1em;
+  }
+
+  .u-m-sm--b {
+    margin-bottom: 1em;
+  }
+
+.u-m-md {
+  margin: 1.5em;
+}
+
+  .u-m-md--lr {
+    margin: 0 1.5em;
+  }
+
+  .u-m-md--tb {
+    margin: 1.5em 0;
+  }
+
+  .u-m-md--t {
+    margin-top: 1.5em;
+  }
+
+  .u-m-md--b {
+    margin-bottom: 1.5em;
+  }
+
+.u-m-lg {
+  margin: 2em;
+}
+
+  .u-m-lg--lr {
+    margin: 0 2em;
+  }
+
+  .u-m-lg--tb {
+    margin: 2em 0;
+  }
+
+  .u-m-lg--t {
+    margin-top: 2em;
+  }
+
+  .u-m-lg--b {
+    margin-bottom: 2em;
+  }
+
+/*TEXT*/
+
+.u-left {
+  float: left !important;
+}
+
+.u-right {
+  float: right !important;
+}
+
+.u-text-left {
+  text-align: left !important;
+}
+
+.u-text-right {
+  text-align: right !important;
+}
+
+.serif {
+  font-family: 'Lora', serif !important;
+}
+
+/*NAV HACKS*/
+nav > .pure-g [class *= "pure-u-"] {
+  display: table;
+}
+
+nav > .pure-g [class *= "pure-u-"] > div {
+  display: table-cell;
+  vertical-align: baseline;
+}
